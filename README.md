@@ -32,34 +32,20 @@ The data set contains the following diseases:
 -  Data ( train and test images ) loading 
 -  Dataset Creation based on a batch size of 32 and resize images to 180*180.
 -  Dataset visualisation 
--  Initial Model Building & training :
-  *   Rescale images to normalize pixel values between (0,1).
-  * Selection of an appropriate optimiser and loss function for model training
-  * Train the model for ~20 epochs
-  * Summary of findings
--  Data augmentation to resolve underfitting/overfitting Model Building & training on the augmented data
-  * Rescale images to normalize pixel values between (0,1).
-  * Selection of an appropriate optimiser and loss function for model training
-  * Train the model for ~20 epochs
-  * Summary of findings
-- Rectify class imbalances present in the training dataset with Augmentor library. Model Building & training on the augmented data
-  * Rescale images to normalize pixel values between (0,1).
-  * Selection of an appropriate optimiser and loss function for model training
-  * Train the model for ~20 epochs
-  * Summary of findings
+-  Initial Model Building & training<br>
+   a. Rescale images to normalize pixel values between (0,1)<br>
+   b. Selection of an appropriate optimiser and loss function for model training<br>
+   c. Train the model for ~20 epochs<br>
+   d. Summary of findings<br>
+-  Data augmentation to resolve underfitting/overfitting Model Building & training on the augmented data<br>
+   a. Rescale images to normalize pixel values between (0,1)<br>
+   b. Selection of an appropriate optimiser and loss function for model training<br>
+   c. Train the model for ~20 epochs<br>
+   d. Summary of findings<br>
+- Rectify class imbalances present in the training dataset with Augmentor library. Model Building & training on the augmented data<br>
+   a. Rescale images to normalize pixel values between (0,1)<br>
+   b. Selection of an appropriate optimiser and loss function for model training<br>
+   c. Train the model for ~30 epochs<br>
+   d. Summary of findings<br>
 -  Final Summary
 
-### Model Architecture
-![Model Arch](https://github.com/kshitij-raj/Melanoma-Skin-Cancer-Detection/blob/d8b2ca8cc296af14ab9aa7a6def31a7efc86271b/Readme_images/ModelLayer.png)
-
-### Model Evaluation
-![ModelEvaluation](https://github.com/kshitij-raj/Melanoma-Skin-Cancer-Detection/blob/7e7a17d3c891bf12be42385979168135775654c4/Readme_images/ModelEvaluation.png)
-
-## References
-Melanoma Skin Cancer from https://www.cancer.org/cancer/melanoma-skin-cancer/about/what-is-melanoma.html
-
-Introduction to CNN from https://www.analyticsvidhya.com/blog/2021/05/convolutional-neural-networks-cnn/
-
-Image classification using CNN from https://www.analyticsvidhya.com/blog/2020/02/learn-image-classification-cnn-convolutional-neural-networks-3-datasets/
-
-Efficient way to build CNN architecture from https://towardsdatascience.com/a-guide-to-an-efficient-way-to-build-neural-network-architectures-part-ii-hyper-parameter-42efca01e5d7
