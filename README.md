@@ -49,3 +49,22 @@ The data set contains the following diseases:
    d. Summary of findings<br>
 -  Final Summary
 
+## Technologies Used
+- Python 3.0 (Python lib used - numpy, pandas, seaborn, matplotlib)
+- tensorflow
+- Augmentor
+- Google Colab
+- CNN Concept 
+
+<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
+
+## Acknowledgements
+
+- IIIT Bangalore
+- Upgrad 
+
+
+## Contact
+Created by alokkmukherji@gmail.com 
+  
+
