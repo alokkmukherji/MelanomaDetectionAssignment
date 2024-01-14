@@ -27,11 +27,18 @@ The data set contains the following diseases:
 -  Squamous cell carcinoma
 -  Vascular lesion
 
+<img width="602" alt="image" src="https://github.com/alokkmukherji/MelanomaDetectionAssignment/assets/140543380/742e8edd-7f16-45f8-8061-243adf299ac7">
+
+The class named "pigmented benign keratosis" has highest no. of images whereas the class named "seborrheic keratosis" has lowest no. of images.
+
+<img width="336" alt="image" src="https://github.com/alokkmukherji/MelanomaDetectionAssignment/assets/140543380/ce7597a9-0549-4494-b494-bec1b11043f0">
+
 ## Steps
--  Loading required libraries 
+-  Loading of required libraries 
 -  Data ( train and test images ) loading 
 -  Dataset Creation based on a batch size of 32 and resize images to 180*180.
--  Dataset visualisation 
+-  Dataset visualisation
+-  Check for class imbalance
 -  Initial Model Building & training<br>
    a. Rescale images to normalize pixel values between (0,1)<br>
    b. Selection of an appropriate optimiser and loss function for model training<br>
