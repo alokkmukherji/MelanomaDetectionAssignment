@@ -56,6 +56,14 @@ The class named "pigmented benign keratosis" has highest no. of images whereas t
    d. Summary of findings<br>
 -  Final Summary
 
+## Conclusion
+- Accuracy on training data has increased by using Augmentor library
+- Model was still overfitting inspite of using Augmentor library
+- The overfitting issue can be resolved by trying different experiments like tuning hyperparameter, using different network topolgy, trying dropout layer etc.
+
+  <img width="371" alt="image" src="https://github.com/alokkmukherji/MelanomaDetectionAssignment/assets/140543380/1c6ba7f6-2c72-485e-b3e2-f9d313a71f09">
+
+
 ## Technologies Used
 - Python 3.0 (Python lib used - numpy, pandas, seaborn, matplotlib)
 - tensorflow
